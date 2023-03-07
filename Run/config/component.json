@@ -1,0 +1,14 @@
+{
+	"ConfigBase" : 
+	{
+		"Component" : 
+		{
+			"CMS61850" : 
+			{
+				"Priority" : 1
+			}
+		},
+		"maxStartPrio" : 1,
+		"minStartPrio" : 1
+	}
+}

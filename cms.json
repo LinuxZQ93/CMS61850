@@ -1,0 +1,30 @@
+{
+    "CMS61850": {
+        "icdPath" : "./config/mmslite/server/IEC61850.icd",
+        "connectNum": 16,
+        "port": 8102,
+        "errorNum": 4,
+        "associate": {
+            "apduSize": 65535,
+            "asduSize": 65530,
+            "protocol": 513,
+            "safe": {
+                "application": {
+                    "enable": true,
+                    "rootCA": "./gmssl/sm2.ca.pem",
+                    "serverCert": "./gmssl/sm2.PNC.sig.crt.pem",
+                    "serverKey": "./gmssl/sm2.PNC.sig.key.pem"
+                }
+            },
+            "timeDiff": 600
+        },
+        "transport": {
+            "enable": false,
+            "rootCA": "./gmssl/rootca.pem",
+            "sigCert": "./gmssl/sigCert.pem",
+            "encCert": "./gmssl/encCert.pem",
+            "sigPass": "./gmssl/sigPass.pem",
+            "encPass": "./gmssl/encPass.pem"
+        }
+    }
+}

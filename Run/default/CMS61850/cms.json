@@ -1,0 +1,8 @@
+{
+	"CMS61850" : 
+	{
+		"connectNum" : 16,
+		"errorNum" : 4,
+		"port" : 8102
+	}
+}

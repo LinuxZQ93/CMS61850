@@ -1,0 +1,27 @@
+{
+	"log" : 
+	{
+		"Local" : 
+		{
+			"DeleteExistLog" : false,
+			"Enable" : true,
+			"LogName" : "PncLog",
+			"MaxLogNum" : 5,
+			"MaxLogSize" : 50
+		},
+		"Net" : 
+		{
+			"ConnectNum" : 5,
+			"Enable" : true,
+			"IP" : "0.0.0.0",
+			"Port" : 8765
+		},
+		"logNameList" : 
+		[
+			"PncLog_20230307_120447_55132.log",
+			"PncLog_20230307_120538_55386.log",
+			"PncLog_20230307_120603_55428.log",
+			"PncLog_20230307_120708_55620.log"
+		]
+	}
+}

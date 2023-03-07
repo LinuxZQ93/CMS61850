@@ -1,0 +1,35 @@
+{
+	"CMS61850" : 
+	{
+		"associate" : 
+		{
+			"apduSize" : 65535,
+			"asduSize" : 65531,
+			"protocol" : 513,
+			"safe" : 
+			{
+				"application" : 
+				{
+					"enable" : true,
+					"rootCA" : "./gmssl/sm2.ca.pem",
+					"serverCert" : "./gmssl/sm2.PNC.sig.crt.pem",
+					"serverKey" : "./gmssl/sm2.PNC.sig.key.pem"
+				}
+			},
+			"timeDiff" : 600
+		},
+		"connectNum" : 16,
+		"errorNum" : 4,
+		"icdPath" : "./config/CMS61850/IEC61850.icd",
+		"port" : 8102,
+		"transport" : 
+		{
+			"enable" : false,
+			"encCert" : "./gmssl/encCert.pem",
+			"encPass" : "./gmssl/encPass.pem",
+			"rootCA" : "./gmssl/rootca.pem",
+			"sigCert" : "./gmssl/sigCert.pem",
+			"sigPass" : "./gmssl/sigPass.pem"
+		}
+	}
+}
